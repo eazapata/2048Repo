@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:background="@color/brownGrid">
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="@dimen/fieldSize"
+            android:layout_height="@dimen/fieldSize"
+            android:layout_margin="@dimen/marginFields"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="fill"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="@dimen/fieldSize"
+            android:layout_height="@dimen/fieldSize"
+            android:layout_margin="@dimen/marginFields"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="fill"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="@dimen/fieldSize"
+            android:layout_height="@dimen/fieldSize"
+            android:layout_margin="@dimen/marginFields"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="fill"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/four"
+            android:layout_width="@dimen/fieldSize"
+            android:layout_height="@dimen/fieldSize"
+            android:layout_margin="@dimen/marginFields"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="fill"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/five"
+            android:layout_width="@dimen/fieldSize"
+            android:layout_height="@dimen/fieldSize"
+            android:layout_margin="@dimen/marginFields"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="fill"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/six"
+            android:layout_width="@dimen/fieldSize"
+            android:layout_height="@dimen/fieldSize"
+            android:layout_margin="@dimen/marginFields"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="fill"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/seven"
+            android:layout_width="@dimen/fieldSize"
+            android:layout_height="@dimen/fieldSize"
+            android:layout_margin="@dimen/marginFields"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="fill"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/eight"
+            android:layout_width="@dimen/fieldSize"
+            android:layout_height="@dimen/fieldSize"
+            android:layout_margin="@dimen/marginFields"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="fill"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/nine"
+            android:layout_width="@dimen/fieldSize"
+            android:layout_height="@dimen/fieldSize"
+            android:layout_margin="@dimen/marginFields"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="fill"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/ten"
+            android:layout_width="@dimen/fieldSize"
+            android:layout_height="@dimen/fieldSize"
+            android:layout_margin="@dimen/marginFields"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="fill"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/eleven"
+            android:layout_width="@dimen/fieldSize"
+            android:layout_height="@dimen/fieldSize"
+            android:layout_margin="@dimen/marginFields"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="fill"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/twelve"
+            android:layout_width="@dimen/fieldSize"
+            android:layout_height="@dimen/fieldSize"
+            android:layout_margin="@dimen/marginFields"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="fill"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/thirteen"
+            android:layout_width="@dimen/fieldSize"
+            android:layout_height="@dimen/fieldSize"
+            android:layout_margin="@dimen/marginFields"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="fill"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/fourteen"
+            android:layout_width="@dimen/fieldSize"
+            android:layout_height="@dimen/fieldSize"
+            android:layout_margin="@dimen/marginFields"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="fill"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/fifteen"
+            android:layout_width="@dimen/fieldSize"
+            android:layout_height="@dimen/fieldSize"
+            android:layout_margin="@dimen/marginFields"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="fill"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/sixteen"
+            android:layout_width="@dimen/fieldSize"
+            android:layout_height="@dimen/fieldSize"
+            android:layout_margin="@dimen/marginFields"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_gravity="fill"
+            android:textStyle="bold"/>
+    </GridLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">2048</string>
+    <string name="_2">2</string>
+    <string name="_0">0</string>
+    <string name="_4">4</string>
+    <string name="_8">8</string>
+    <string name="android_game">Android Game</string>
+    <string name="text_footer">Version 2.0.0\nCopyright © 2011 Mamlambo\nAllRights Reserved</string>
+</resources>
