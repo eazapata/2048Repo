@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.a2048.listView.ListMenu;
+
 public class SplashActivity extends AppCompatActivity {
 
     @Override
@@ -32,10 +34,9 @@ public class SplashActivity extends AppCompatActivity {
             public void onAnimationStart(Animation animation) {
 
             }
-
             public void onAnimationEnd(Animation animation) {
                 startActivity(new Intent(SplashActivity.this,
-                        MainActivity.class));
+                        ListMenu.class));
                 SplashActivity.this.finish();
             }
 
