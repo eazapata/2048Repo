@@ -11,4 +11,6 @@
     <string name="player_name">Player name:</string>
     <string name="new_game">New game</string>
     <string name="undo">Undo</string>
+    <string name="save">Save</string>
+    <string name="show">Show</string>
 </resources>

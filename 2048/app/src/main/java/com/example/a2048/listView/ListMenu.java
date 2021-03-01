@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.example.a2048.DataBase.ScoresActivity;
 import com.example.a2048.MainActivity;
 import com.example.a2048.R;
 import com.example.a2048.listView.Item;
@@ -41,6 +42,11 @@ public class ListMenu extends AppCompatActivity  implements AdapterView.OnItemCl
         switch (position){
             case 0:
                 intent = new Intent(this, MainActivity.class);
+                startActivity(intent);
+                break;
+
+            case 1:
+                intent = new Intent(this, ScoresActivity.class);
                 startActivity(intent);
                 break;
             default:
